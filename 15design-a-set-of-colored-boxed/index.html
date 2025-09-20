@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Color Boxes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content"> Skip to main content </a>
+
+    <header>
+      <h1>CSS Color Formats</h1>
+      <p>
+        Demonstrating hexadecimal, RGB, keyword, HSL, and RGBA color syntaxes in
+        an accessible grid.
+      </p>
+    </header>
+
+    <main id="main-content">
+      <div
+        class="color-grid"
+        role="list"
+        aria-label="Color samples in different CSS notations"
+      >
+        <div
+          class="color-box color1"
+          role="listitem"
+          aria-label="Hexadecimal color box: #e91e63"
+        >
+          <span class="color-label">#e91e63</span>
+        </div>
+
+        <div
+          class="color-box color2"
+          role="listitem"
+          aria-label="RGB color box: rgb(33, 150, 243)"
+        >
+          <span class="color-label">rgb(33, 150, 243)</span>
+        </div>
+
+        <div
+          class="color-box color3"
+          role="listitem"
+          aria-label="Keyword color box: gold"
+        >
+          <span class="color-label">gold</span>
+        </div>
+
+        <div
+          class="color-box color4"
+          role="listitem"
+          aria-label="HSL color box: hsl(120, 60%, 40%)"
+        >
+          <span class="color-label">hsl(120, 60%, 40%)</span>
+        </div>
+
+        <div
+          class="color-box color5"
+          role="listitem"
+          aria-label="RGBA color box: rgba(255, 193, 7, 0.8)"
+        >
+          <span class="color-label"> rgba(255, 193, 7, 0.8) </span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
