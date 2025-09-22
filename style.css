@@ -1,9 +1,8 @@
-
 :root {
-  --bg-color: #f9f9f9;
+  --bg-color: whitesmoke;
   --text-color: #222;
-  --card-bg: #fff;
-  --card-border: #ddd;
+  --card-bg: whitesmoke;
+  --card-border: gray;
   --accent: #0077ff;
   --shadow: rgba(0, 0, 0, 0.1);
 }
@@ -113,12 +112,9 @@ main {
 }
 
 .project-card:hover {
-  transform: translateY(-5px) scale(1.02);
+  transform: translateY(-5px) scale(1.03);
   box-shadow: 0 8px 16px var(--shadow);
-}
-
-.project-card:hover::after {
-  transform: rotate(25deg) translate(50%, 50%);
+  background-color: darkgray;
 }
 
 footer {
